@@ -30,7 +30,7 @@ nohup python -u run.py > run.log 2>&1 &
 |   reply_id    |    回复对象     |                     *（若无则为空字符）*                     |
 | thread_owner  | 主题发起者[^**] |                           ihuazuo                            |
 | thread_title  |    主题标题     |  [由neuq51221推荐]【问题】去银行以后的职业发展是怎么样的呢   |
-|  thread_url   |    主题编号     |        http://bbs.cloud.icybee.cn/article/Kungfu/105         |
+|  thread_url   |    主题链接     |        http://bbs.cloud.icybee.cn/article/Kungfu/105         |
 
 [*]: 创建新的主题或者回复新主题统称为发帖
 [**]: 这里指帖子组（主题）发起者，即楼主
