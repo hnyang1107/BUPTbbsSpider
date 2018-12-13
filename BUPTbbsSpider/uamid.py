@@ -12,5 +12,4 @@ class Uamid(UserAgentMiddleware):
         
     def process_request(self, request, spider):
         thisua = random.choice(UAPOOL)
-        print("user-agent:"+thisua)
         request.headers.setdefault('User-Agent', thisua)
