@@ -19,5 +19,4 @@ class BuptbbsspiderPipeline(object):
         writer.writerow((item['post_time'], item['post_id'], item['post_sex'], item['post_title'], item['reply_id'],
                          item['content'], item['thread_title'], item['thread_owner'], item['thread_url'],
                          item['board_name_cn'], item['board_name_en']))
-        f.close()
         return item
